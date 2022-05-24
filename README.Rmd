@@ -24,18 +24,19 @@ The goal of SheepData is to ...
 
 You can install the development version of SheepData from [GitHub](https://github.com/) with:
 
-``` r
+```{r}
 # install.packages("devtools")
 devtools::install_github("dennist2/SheepData")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to get the dataset from this package:
 
 ```{r example}
-# library(SheepData)
-## basic example code
+library(SheepData)
+sheep <- SheepData::sheep
+
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

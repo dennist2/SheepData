@@ -16,15 +16,18 @@ You can install the development version of SheepData from
 ``` r
 # install.packages("devtools")
 devtools::install_github("dennist2/SheepData")
+#> Skipping install of 'SheepData' from a github remote, the SHA1 (b35c34b2) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to get the dataset from this
+package:
 
 ``` r
-# library(SheepData)
-## basic example code
+library(SheepData)
+sheep <- SheepData::sheep
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
